@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DAA440E5-D9AD-41BE-90D3-A61338725D80</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Neckst</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4F60A407A477C041E5806201C021C478F5B44E90</key>
+		<string>https://github.com/davidhao3300/neckst.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Neckst/Neckst.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4F60A407A477C041E5806201C021C478F5B44E90</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/davidhao3300/neckst.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4F60A407A477C041E5806201C021C478F5B44E90</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4F60A407A477C041E5806201C021C478F5B44E90</string>
+			<key>IDESourceControlWCCName</key>
+			<string>neckst</string>
+		</dict>
+	</array>
+</dict>
+</plist>
