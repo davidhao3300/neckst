@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D78189219C9490600BE30A9 /* NetworkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D78189119C9490600BE30A9 /* NetworkParser.swift */; };
 		3DE518E519C6B47600F13406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE518E419C6B47600F13406 /* AppDelegate.swift */; };
 		3DE518E719C6B47600F13406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE518E619C6B47600F13406 /* ViewController.swift */; };
 		3DE518EA19C6B47600F13406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE518E819C6B47600F13406 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D78189119C9490600BE30A9 /* NetworkParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkParser.swift; sourceTree = "<group>"; };
 		3DE518DF19C6B47600F13406 /* Neckst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neckst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE518E319C6B47600F13406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DE518E419C6B47600F13406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				3DE518E819C6B47600F13406 /* Main.storyboard */,
 				3DE518EB19C6B47600F13406 /* Images.xcassets */,
 				3DE518ED19C6B47600F13406 /* LaunchScreen.xib */,
+				3D78189119C9490600BE30A9 /* NetworkParser.swift */,
 				3DE518E219C6B47600F13406 /* Supporting Files */,
 			);
 			path = Neckst;
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE518E719C6B47600F13406 /* ViewController.swift in Sources */,
+				3D78189219C9490600BE30A9 /* NetworkParser.swift in Sources */,
 				3DE518E519C6B47600F13406 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				3DE5190019C6B47600F13406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DE5190119C6B47600F13406 /* Build configuration list for PBXNativeTarget "NeckstTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				3DE5190319C6B47600F13406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
