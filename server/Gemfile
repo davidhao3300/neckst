@@ -27,3 +27,6 @@ gem 'spring',        group: :development
 gem 'rspec-rails'
 gem 'rails_12factor', group: :production
 gem 'httparty'
+
+# To be legitly secure.
+gem 'figaro'
