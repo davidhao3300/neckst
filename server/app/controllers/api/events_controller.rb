@@ -1,4 +1,6 @@
 class Api::EventsController < ApplicationController
+  before_filter :check_params
+
   def index
     render json: {
       events: [
@@ -27,5 +29,14 @@ class Api::EventsController < ApplicationController
         }
       ]
     }
+  end
+
+  private
+  def check_params
+    [:latitude, :longitude].each do |param|
+      if params[param].nil?
+        raise BadRequestError, "Missing parameter: #{param}"
+      end
+    end
   end
 end
