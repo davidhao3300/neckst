@@ -9,7 +9,9 @@ class Api::EventsController < ApplicationController
           end_time: DateTime.current + 1.day + 2.hours,
           type: :social,
           link: "http://neckst.herokuapp.com",
-          location: "1234 Neck St., Neckville, NY 10027"
+          location: {
+            address: "1234 Neck St., Neckville, NY 10027"
+          }
         },
         {
           name: "Crazy Fish Bankruptcy Celebration",
@@ -18,7 +20,10 @@ class Api::EventsController < ApplicationController
           end_time: DateTime.current + 2.months,
           type: :social,
           link: "http://neckst.herokuapp.com",
-          location: "450 Serra Mall, Stanford, CA 94305"
+          location: {
+            latitude: 37.4283408,
+            longitude: -122.1693066
+          }
         }
       ]
     }
