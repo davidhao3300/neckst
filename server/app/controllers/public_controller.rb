@@ -1,8 +1,7 @@
 class PublicController < ApplicationController
   def home
     render json: {
-      message: "Neckst",
-      success: true
+      message: "Neckst"
     }
   end
 end
