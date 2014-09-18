@@ -14,6 +14,10 @@ class NetworkParser {
     
     init(){
         println("Network Parser initialized.")
+        self.refreshEvents()
+    }
+    
+    func refreshEvents(){
         let urlPath = "http://neckst.herokuapp.com/api/events"
         let url: NSURL = NSURL(string: urlPath)
         let session = NSURLSession.sharedSession()

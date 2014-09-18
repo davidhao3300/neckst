@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D78189219C9490600BE30A9 /* NetworkParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D78189119C9490600BE30A9 /* NetworkParser.swift */; };
+		3D78189419CAD33500BE30A9 /* MapsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D78189319CAD33500BE30A9 /* MapsParser.swift */; };
 		3DE518E519C6B47600F13406 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE518E419C6B47600F13406 /* AppDelegate.swift */; };
 		3DE518E719C6B47600F13406 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE518E619C6B47600F13406 /* ViewController.swift */; };
 		3DE518EA19C6B47600F13406 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE518E819C6B47600F13406 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		3D78189119C9490600BE30A9 /* NetworkParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkParser.swift; sourceTree = "<group>"; };
+		3D78189319CAD33500BE30A9 /* MapsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapsParser.swift; sourceTree = "<group>"; };
 		3DE518DF19C6B47600F13406 /* Neckst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neckst.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE518E319C6B47600F13406 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DE518E419C6B47600F13406 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D78189519CAD49F00BE30A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D78189119C9490600BE30A9 /* NetworkParser.swift */,
+				3D78189319CAD33500BE30A9 /* MapsParser.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3D78189619CAD4AD00BE30A9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3DE518E619C6B47600F13406 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D78189719CAD4C600BE30A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		3DE518D619C6B47600F13406 = {
 			isa = PBXGroup;
 			children = (
@@ -80,11 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				3DE518E419C6B47600F13406 /* AppDelegate.swift */,
-				3DE518E619C6B47600F13406 /* ViewController.swift */,
 				3DE518E819C6B47600F13406 /* Main.storyboard */,
 				3DE518EB19C6B47600F13406 /* Images.xcassets */,
 				3DE518ED19C6B47600F13406 /* LaunchScreen.xib */,
-				3D78189119C9490600BE30A9 /* NetworkParser.swift */,
+				3D78189619CAD4AD00BE30A9 /* ViewControllers */,
+				3D78189719CAD4C600BE30A9 /* Views */,
+				3D78189519CAD49F00BE30A9 /* Model */,
 				3DE518E219C6B47600F13406 /* Supporting Files */,
 			);
 			path = Neckst;
@@ -216,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE518E719C6B47600F13406 /* ViewController.swift in Sources */,
+				3D78189419CAD33500BE30A9 /* MapsParser.swift in Sources */,
 				3D78189219C9490600BE30A9 /* NetworkParser.swift in Sources */,
 				3DE518E519C6B47600F13406 /* AppDelegate.swift in Sources */,
 			);
